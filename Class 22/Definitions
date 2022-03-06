@@ -1,0 +1,44 @@
+Methods are functions stored as object properties.
+JavaScript methods are actions that can be performed on objects.
+A JavaScript method is a property containing a function definition.
+
+
+
+
+
+
+
+
+the notion of encapsulation (or OOP Encapsulation) refers to the bundling of data, along with the methods that operate on that data,
+ into a single unit.
+ const person = {
+    firstName: "Hamza",
+    lastName: "Ahmed",
+    id: 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+
+  document.getElementById("demo").innerHTML = person.fullName();
+
+
+
+
+
+
+
+
+The prototype is an object that is associated with every functions and objects by default in JavaScript, where function's prototype property is accessible
+ and modifiable and object's prototype property (aka attribute) is not visible.
+
+
+
+
+
+
+
+
+
+In a constructor function this does not have a value. It is a substitute for the new object. 
+The value of this will become the new object when a new object is created.
