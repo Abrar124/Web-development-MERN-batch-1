@@ -1,0 +1,11 @@
+The key difference between props and state is that state is internal and controlled by the component itself
+while props are external and controlled by whatever renders the component.
+
+
+State can be changed (Mutable)
+Whereas Props can't (Immutable)
+
+
+props = property
+
+
