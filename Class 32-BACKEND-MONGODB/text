@@ -1,0 +1,24 @@
+1. MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and
+data structure can be changed over time
+
+2. MongoDB is a document database used to build highly available and scalable internet applications. With its flexible schema approach, 
+ it's popular with development teams using agile methodologies.
+
+3. SQL databases are vertically scalable, while NoSQL databases are horizontally scalable.
+
+4. SQL databases are table-based, while NoSQL databases are document, key-value, graph, or wide-column stores. 
+
+5. SQL databases are better for multi-row transactions, while NoSQL is better for unstructured data like documents or JSON.
+
+
+
+1 2 3 4
+a b c d
+ 
+
+
+
+CRUD: create, Read, Update, Delete
+
+
+SQl / NoSQL(MongoDB)
